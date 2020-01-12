@@ -11,8 +11,6 @@ class Calculator{
         this.currentOperand = ''
         this.previosOperand = ''
         this.operation = undefined
-        
-
     }
 
     delete(){
