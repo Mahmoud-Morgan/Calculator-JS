@@ -11,6 +11,7 @@ class Calculator{
         this.currentOperand = ''
         this.previosOperand = ''
         this.operation = undefined
+
     }
 
     delete(){
@@ -46,7 +47,7 @@ class Calculator{
                 computation = prev - current
             break
       
-            case '*':
+            case 'x':
                 computation = prev * current
             break
 
@@ -134,4 +135,4 @@ allClearButton.addEventListener('click',button =>{
 deleteButton.addEventListener('click',button =>{
     calculator.delete()
     calculator.updateDisplay()
-})
+}) 
